@@ -29,7 +29,7 @@ public class AppInfoTwo extends BaseObservable {
     private final ObservableField<String> packageName = new ObservableField<>();
     private Drawable icon;
 
-    @BindingAdapter("bind:app_two_logo")
+    @BindingAdapter("app_two_logo")
     public static void setLogo(ImageView imageView, Drawable drawable) {
         imageView.setImageResource(R.mipmap.ic_launcher);
     }
