@@ -49,6 +49,9 @@ public class LoginActivity extends AppCompatActivity implements UserLoginInterfa
 
     @Override
     public void onLoginFail() {
+        user.setUserName("admin");
+        user.setPassWord("12345");
         Toast.makeText(this, "用户名或密码错误", Toast.LENGTH_SHORT).show();
     }
+
 }
