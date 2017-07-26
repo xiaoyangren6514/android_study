@@ -1,0 +1,1 @@
+include ':event_dispatcher', ':custom_view', ':RxJava_Demo', ':RecycleViewTest', ':fragment_news_demo', ':broadcast_demo_force_logout', ':data_save_demo', ':runtime_permission_demo', ':screenshot', ':android_mvvm_demo', ':android_mvp_demo'

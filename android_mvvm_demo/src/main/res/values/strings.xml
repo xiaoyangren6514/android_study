@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">mvvm demo</string>
+    <string name="title_activity_update_date_two">UpdateDateTwoActivity</string>
+</resources>

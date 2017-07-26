@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <!--
+        <import
+            alias="newuser"
+            type="com.happy.mvvm.domain.UserEntity" />
+
+        <variable
+            name="user"
+            type="newuser" />
+        -->
+
+        <variable
+            name="user"
+            type="com.happy.mvvm.domain.UserEntity" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{user.username}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{`username is :`+user.username}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{user.nickname}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@{user.age>20?0xFF0000FF:0xFFFF0000}"
+            android:text="@{String.valueOf(user.age)}" />
+    </LinearLayout>
+</layout>

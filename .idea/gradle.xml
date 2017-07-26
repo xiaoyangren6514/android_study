@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/RecycleViewTest" />
+            <option value="$PROJECT_DIR$/RxJava_Demo" />
+            <option value="$PROJECT_DIR$/android_mvp_demo" />
+            <option value="$PROJECT_DIR$/android_mvvm_demo" />
+            <option value="$PROJECT_DIR$/broadcast_demo_force_logout" />
+            <option value="$PROJECT_DIR$/custom_view" />
+            <option value="$PROJECT_DIR$/data_save_demo" />
+            <option value="$PROJECT_DIR$/event_dispatcher" />
+            <option value="$PROJECT_DIR$/fragment_news_demo" />
+            <option value="$PROJECT_DIR$/runtime_permission_demo" />
+            <option value="$PROJECT_DIR$/screenshot" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

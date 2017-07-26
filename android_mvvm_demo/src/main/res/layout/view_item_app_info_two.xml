@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="appinfo_two"
+            type="com.happy.mvvm.domain.AppInfoTwo" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:onClick="@{appinfo_two.onItemClick}"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:padding="6dp"
+            app:app_two_logo="@{appinfo_two.icon}" />
+
+        <!--<ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:padding="6dp"
+            android:src="@mipmap/ic_launcher" />-->
+<!--
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:padding="6dp"
+            app:applogo="@{appinfo_two.icon}" />
+-->
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/iv_logo"
+            android:text="@{appinfo_two.appName}" />
+
+        <TextView
+            android:id="@+id/tv_package_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/iv_logo"
+            android:text="@{`包名：`+appinfo_two.packageName}"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_version_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_package_name"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/iv_logo"
+            android:text="@{`版本号：`+appinfo_two.versionName}"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_click_nums"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_package_name"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="@{`点击数：`+appinfo_two.clickNums}"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</layout>
