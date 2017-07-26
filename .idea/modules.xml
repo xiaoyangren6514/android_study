@@ -13,7 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/event_dispatcher/event_dispatcher.iml" filepath="$PROJECT_DIR$/event_dispatcher/event_dispatcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragment_news_demo/fragment_news_demo.iml" filepath="$PROJECT_DIR$/fragment_news_demo/fragment_news_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/runtime_permission_demo/runtime_permission_demo.iml" filepath="$PROJECT_DIR$/runtime_permission_demo/runtime_permission_demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/screenshot/screenshot.iml" filepath="$PROJECT_DIR$/screenshot/screenshot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screenshot_demo/screenshot_demo.iml" filepath="$PROJECT_DIR$/screenshot_demo/screenshot_demo.iml" />
     </modules>
   </component>
 </project>

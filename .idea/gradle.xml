@@ -18,7 +18,7 @@
             <option value="$PROJECT_DIR$/event_dispatcher" />
             <option value="$PROJECT_DIR$/fragment_news_demo" />
             <option value="$PROJECT_DIR$/runtime_permission_demo" />
-            <option value="$PROJECT_DIR$/screenshot" />
+            <option value="$PROJECT_DIR$/screenshot_demo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
