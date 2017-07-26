@@ -20,6 +20,7 @@ import com.happy.mvvm.R;
  */
 
 public class AppInfoTwo extends BaseObservable {
+
     public final ObservableField<String> appName = new ObservableField<>();
     private final ObservableField<Long> intallTime = new ObservableField<>();
     private final ObservableField<Integer> clickNums = new ObservableField<>();
