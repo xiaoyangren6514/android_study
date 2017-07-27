@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AndroidStudy.iml" filepath="$PROJECT_DIR$/AndroidStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/RecycleViewTest/RecycleViewTest.iml" filepath="$PROJECT_DIR$/RecycleViewTest/RecycleViewTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/RxJava_Demo/RxJava_Demo.iml" filepath="$PROJECT_DIR$/RxJava_Demo/RxJava_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_mvc_demo/android_mvc_demo.iml" filepath="$PROJECT_DIR$/android_mvc_demo/android_mvc_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/android_mvp_demo/android_mvp_demo.iml" filepath="$PROJECT_DIR$/android_mvp_demo/android_mvp_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/android_mvvm_demo/android_mvvm_demo.iml" filepath="$PROJECT_DIR$/android_mvvm_demo/android_mvvm_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/broadcast_demo_force_logout/broadcast_demo_force_logout.iml" filepath="$PROJECT_DIR$/broadcast_demo_force_logout/broadcast_demo_force_logout.iml" />

@@ -11,13 +11,12 @@ import com.happy.mvp.view.fragment.AppListFragment;
 /**
  * A login screen that offers login via email/password.
  */
-public class MainActivity extends AppCompatActivity {
-
+public class AppListActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_app_list);
 
         AppListFragment fragment = AppListFragment.newInstance();
         FragmentManager manager = getSupportFragmentManager();

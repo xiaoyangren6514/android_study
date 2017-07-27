@@ -1,5 +1,7 @@
 package com.happy.mvvm.controller;
 
+import android.os.Handler;
+
 import com.happy.mvvm.interfaces.UserLoginInterface;
 
 /**
@@ -25,16 +27,18 @@ public class UserController {
     }
 
     public void doLogin(final String userName, final String passWord) {
-        try {
-            Thread.sleep(2000);
-            if (userName.equals("admin") && passWord.equals("12345")) {
-                userLoginInterface.onLoginSuccess();
-            } else {
-                userLoginInterface.onLoginFail();
+        userLoginInterface.showDialog();
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                userLoginInterface.dismissDialog();
+                if (userName.equals("admin") && passWord.equals("12345")) {
+                    userLoginInterface.onLoginSuccess();
+                } else {
+                    userLoginInterface.onLoginFail();
+                }
             }
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        }, 3000);
     }
 
 }

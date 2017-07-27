@@ -1,5 +1,6 @@
 package com.happy.mvvm.activity;
 
+import android.app.ProgressDialog;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -14,24 +15,28 @@ import com.happy.mvvm.domain.User;
 import com.happy.mvvm.interfaces.UserLoginInterface;
 
 /**
+ * 此功能以MVVP为主，结合MVP view接口引用和现工程代码controller进行处理的。
+ * 可结合项目中event事件分发，这样就更方便了
  * 单／双向绑定
  */
 public class LoginActivity extends AppCompatActivity implements UserLoginInterface {
 
     private UserController userController = UserController.getInstance();
 
-    private User user;
+    private User user = new User();
 
     private ActivityLoginBinding activityLoginBinding;
 
+    private ProgressDialog pd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         activityLoginBinding = DataBindingUtil.setContentView(this, R.layout.activity_login);
-        user = new User();
         activityLoginBinding.setUser(user);
         userController.setUserLoginInterface(this);
+        pd = new ProgressDialog(this);
+        pd.setMessage("登录中...");
     }
 
     public void login(View view) {
@@ -52,6 +57,16 @@ public class LoginActivity extends AppCompatActivity implements UserLoginInterfa
         user.setUserName("admin");
         user.setPassWord("12345");
         Toast.makeText(this, "用户名或密码错误", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void dismissDialog() {
+        pd.dismiss();
+    }
+
+    @Override
+    public void showDialog() {
+        pd.show();
     }
 
 }

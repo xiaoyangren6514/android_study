@@ -8,4 +8,8 @@ public interface UserLoginInterface {
     public void onLoginSuccess();
 
     public void onLoginFail();
+
+    public void dismissDialog();
+
+    public void showDialog();
 }

@@ -19,6 +19,7 @@ public class ImageViewActivity extends AppCompatActivity {
         ActivityImageViewBinding activityImageViewBinding = DataBindingUtil.setContentView(this, R.layout.activity_image_view);
         Student student = new Student("旺财", 19, "http://img1.imgtn.bdimg.com/it/u=947982974,538813931&fm=26&gp=0.jpg");
         activityImageViewBinding.setStudent(student);
+//        activityImageViewBinding.tvName 通过databing获取绑定的控件
     }
 
 }
