@@ -20,6 +20,7 @@
             <option value="$PROJECT_DIR$/fragment_news_demo" />
             <option value="$PROJECT_DIR$/runtime_permission_demo" />
             <option value="$PROJECT_DIR$/screenshot_demo" />
+            <option value="$PROJECT_DIR$/set_result_demo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
