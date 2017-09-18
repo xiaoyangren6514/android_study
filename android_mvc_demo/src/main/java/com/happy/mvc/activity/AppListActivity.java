@@ -1,13 +1,14 @@
-package com.happy.mvc;
+package com.happy.mvc.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
+import com.happy.mvc.R;
 import com.happy.mvc.adapter.AppListAdapter;
 import com.happy.mvc.utils.CommonUtil;
 
-public class MainActivity extends AppCompatActivity {
+public class AppListActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
