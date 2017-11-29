@@ -9,10 +9,14 @@
       <module fileurl="file://$PROJECT_DIR$/android_mvp_demo/android_mvp_demo.iml" filepath="$PROJECT_DIR$/android_mvp_demo/android_mvp_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/android_mvvm_demo/android_mvvm_demo.iml" filepath="$PROJECT_DIR$/android_mvvm_demo/android_mvvm_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/broadcast_demo_force_logout/broadcast_demo_force_logout.iml" filepath="$PROJECT_DIR$/broadcast_demo_force_logout/broadcast_demo_force_logout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calendar_demo/calendar_demo.iml" filepath="$PROJECT_DIR$/calendar_demo/calendar_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/custom_view/custom_view.iml" filepath="$PROJECT_DIR$/custom_view/custom_view.iml" />
       <module fileurl="file://$PROJECT_DIR$/data_save_demo/data_save_demo.iml" filepath="$PROJECT_DIR$/data_save_demo/data_save_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/event_dispatcher/event_dispatcher.iml" filepath="$PROJECT_DIR$/event_dispatcher/event_dispatcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragment_news_demo/fragment_news_demo.iml" filepath="$PROJECT_DIR$/fragment_news_demo/fragment_news_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glide_demo/glide_demo.iml" filepath="$PROJECT_DIR$/glide_demo/glide_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloworld/helloworld.iml" filepath="$PROJECT_DIR$/helloworld/helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kotlin_demo/kotlin_demo.iml" filepath="$PROJECT_DIR$/kotlin_demo/kotlin_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/runtime_permission_demo/runtime_permission_demo.iml" filepath="$PROJECT_DIR$/runtime_permission_demo/runtime_permission_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/screenshot_demo/screenshot_demo.iml" filepath="$PROJECT_DIR$/screenshot_demo/screenshot_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/set_result_demo/set_result_demo.iml" filepath="$PROJECT_DIR$/set_result_demo/set_result_demo.iml" />

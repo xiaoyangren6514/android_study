@@ -14,10 +14,14 @@
             <option value="$PROJECT_DIR$/android_mvp_demo" />
             <option value="$PROJECT_DIR$/android_mvvm_demo" />
             <option value="$PROJECT_DIR$/broadcast_demo_force_logout" />
+            <option value="$PROJECT_DIR$/calendar_demo" />
             <option value="$PROJECT_DIR$/custom_view" />
             <option value="$PROJECT_DIR$/data_save_demo" />
             <option value="$PROJECT_DIR$/event_dispatcher" />
             <option value="$PROJECT_DIR$/fragment_news_demo" />
+            <option value="$PROJECT_DIR$/glide_demo" />
+            <option value="$PROJECT_DIR$/helloworld" />
+            <option value="$PROJECT_DIR$/kotlin_demo" />
             <option value="$PROJECT_DIR$/runtime_permission_demo" />
             <option value="$PROJECT_DIR$/screenshot_demo" />
             <option value="$PROJECT_DIR$/set_result_demo" />
