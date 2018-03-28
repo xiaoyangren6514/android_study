@@ -48,6 +48,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         {
             DEMOS.put("01.基本使用", BaseUseActivity.class);
             DEMOS.put("02.基本使用", EasyThreadActivity.class);
+            DEMOS.put("03.flatMap", FlatMapActivity.class);
+            DEMOS.put("04.zip", ZipActivity.class);
+            DEMOS.put("05.dead test", DeadActivity.class);
         }
 
         private String[] keys = null;

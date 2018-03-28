@@ -1,0 +1,6 @@
+package com.happy.gradle
+class Example {
+    static void main(String[] args) {
+        print("hello")
+    }
+}

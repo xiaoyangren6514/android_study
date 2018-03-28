@@ -17,7 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".BaseUseActivity" />
-        <activity android:name=".activity.EasyThreadActivity"></activity>
+        <activity android:name=".activity.EasyThreadActivity" />
+        <activity android:name=".activity.FlatMapActivity" />
+        <activity android:name=".activity.ZipActivity" />
+        <activity android:name=".activity.DeadActivity"></activity>
     </application>
 
 </manifest>

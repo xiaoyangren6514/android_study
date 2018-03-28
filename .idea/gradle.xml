@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/RecycleViewTest" />
             <option value="$PROJECT_DIR$/RxJava_Demo" />
+            <option value="$PROJECT_DIR$/aar_demo" />
             <option value="$PROJECT_DIR$/android_mvc_demo" />
             <option value="$PROJECT_DIR$/android_mvp_demo" />
             <option value="$PROJECT_DIR$/android_mvvm_demo" />
@@ -20,11 +21,14 @@
             <option value="$PROJECT_DIR$/event_dispatcher" />
             <option value="$PROJECT_DIR$/fragment_news_demo" />
             <option value="$PROJECT_DIR$/glide_demo" />
+            <option value="$PROJECT_DIR$/gradle_demo" />
             <option value="$PROJECT_DIR$/helloworld" />
             <option value="$PROJECT_DIR$/kotlin_demo" />
+            <option value="$PROJECT_DIR$/product_flavors" />
             <option value="$PROJECT_DIR$/runtime_permission_demo" />
             <option value="$PROJECT_DIR$/screenshot_demo" />
             <option value="$PROJECT_DIR$/set_result_demo" />
+            <option value="$PROJECT_DIR$/webview_demo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
